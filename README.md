@@ -3,12 +3,13 @@ Macaca Electron test sample
 ### I
 
 ```
-git clone https://github.com/meowtec/macaca-electron-test-sample-weibo.git && cd macaca-electron-test-sample-weibo
+git clone https://github.com/meowtec/macaca-electron-test-sample-weibo.git
+cd macaca-electron-test-sample-weibo
 ```
 
 ### II
 ```
-npm install #  cnpm install
+npm install # cnpm install
 ```
 
 ### III
