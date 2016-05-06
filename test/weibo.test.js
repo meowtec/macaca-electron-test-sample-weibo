@@ -18,7 +18,7 @@ describe('Weibo', function() {
     const unloginTitle = '微博-随时随地发现新鲜事'
     return driver
     .get('http://weibo.com')
-    .sleep(5000)
+    .sleep(6000)
     .title()
     .then((title) => {
       title.should.equal(loginTitle)
@@ -46,7 +46,7 @@ describe('Weibo', function() {
       .sleep(1000)
       .elementByCss('[node-type="submitBtn"]')
       .click()
-      .sleep(5000)
+      .sleep(6000)
       .title()
       .then((title) => {
         //登录后的标题
@@ -59,7 +59,7 @@ describe('Weibo', function() {
     return driver
     .elementByCss('input.W_input')
     .sendKeys('Macaca')
-    .sleep(2000)
+    .sleep(3000)
     .elementByCss('[node-type="searchSubmit"]')
     .click()
     .sleep(5000)
@@ -69,7 +69,7 @@ describe('Weibo', function() {
       value.should.equal('Macaca')
     })
     .back()
-    .sleep(3000)
+    .sleep(5000)
   })
 
   it('自动填写微博', () => {
@@ -93,7 +93,7 @@ describe('Weibo', function() {
   it('发微博', () => {
     return driver
     .elementByCss('[node-type="submit"]')
-    // .click()
+    .click()
     .sleep(6000)
   })
 
