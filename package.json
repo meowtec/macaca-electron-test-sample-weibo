@@ -1,0 +1,23 @@
+{
+  "name": "macaca-electron-test-sample-weibo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "macaca run -d ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meowtec/macaca-electron-test-sample-weibo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meowtec/macaca-electron-test-sample-weibo/issues"
+  },
+  "homepage": "https://github.com/meowtec/macaca-electron-test-sample-weibo#readme",
+  "devDependencies": {
+    "macaca-cli": "^1.0.24",
+    "webdriver-client": "^1.0.10"
+  }
+}
