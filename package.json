@@ -16,8 +16,9 @@
     "url": "https://github.com/meowtec/macaca-electron-test-sample-weibo/issues"
   },
   "homepage": "https://github.com/meowtec/macaca-electron-test-sample-weibo#readme",
-  "devDependencies": {
-    "macaca-cli": "^1.0.24",
+  "dependencies": {
+    "macaca-electron": "^1.1.2",
+    "macaca-cli": "^1.1.0",
     "webdriver-client": "^1.0.10"
   }
 }
